@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Multiplication Table Generator</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../CSS/style.css" />
+    </head>
+    <body>
+        <div class="container" >
+            <h1 class="text-center">Multiplication Table Generator</h1>
+
+            <form role="form" class="form-horizontal" id="inputForm">
+                <div class="form-group">
+                    <label for="startMultiplier">Start Multiplier: </label>
+                    <input type="number" class="form-control" id="startMultiplier" placeholder="Enter a number -50 to 50">
+                </div>
+                <div class="form-group">
+                    <label for="endMultiplier">End Multiplier: </label>
+                    <input type="number" class="form-control" id="endMultiplier" placeholder="Enter a number -50 to 50">
+                </div>
+                <div class="form-group">
+                    <label for="startMultiplicand">Start Multiplicand: </label>
+                    <input type="number" class="form-control" id="startMultiplicand" placeholder="Enter a number -50 to 50">
+                </div>
+                <div class="form-group">
+                    <label for="endMultiplicand">End Multiplicand: </label>
+                    <input type="number" class="form-control" id="endMultiplicand" placeholder="Enter a number -50 to 50">
+                </div>
+                <div id="error-message"></div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <div id="table-container">
+            <!-- Table will be injected here -->
+            </div>
+        </div>
+
+        <script src="../JS/script.js"></script>
+    </body>
+</html>

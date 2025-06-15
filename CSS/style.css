@@ -1,0 +1,46 @@
+h1{
+    padding: 25px;
+}
+body{
+    background: beige;
+}
+
+label{
+    color: rgb(16, 90, 40);
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+}
+
+input{
+    padding: 5px;
+}
+
+#table-container {
+    overflow-x: scroll;
+}
+
+#error-message{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+tr{
+    background-color: grey;
+}
+
+tr:nth-child(2n){
+    background-color: black;
+}
+
+
+td {
+    color: white;
+}
+
+
+#multiplicandColumn,
+#multiplierRow {
+    background-color:white;
+}
